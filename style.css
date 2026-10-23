@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    font-family: Arial ;
+    border: border-box;
+    
+
+}
+.navbar{
+    height: 60px;
+    background-color:  black;
+    color: white;
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+.amazon-logo{
+    height: 50px;
+    width: 113px;
+    margin: 1px;
+    padding: 1px 8px 0px 6px;
+    border: 1.5px solid transparent;
+    }  
+ .amazon-logo:hover{
+    border: 1.5px solid white;
+}
+.logo{
+    height: 50px;
+    width: 100%;
+    background-image: url("logo.webp") ;
+    background-size: cover;
+}
+/* box 2 */
+.map{
+    height: 50px;
+    width: 88.64px;
+    border: 1.5px solid transparent;
+}
+.map:hover{
+    border: 1.5px solid white;
+}
+.map-icon{
+    display: flex;
+}
+.one{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.two{
+    color: #ffffff;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+/* box 3 */
+.search-amazon{
+    height: 45px;
+    width: 450.5px;
+    background-color: #0a0eea;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 4px;
+     
+}
+.select-all{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(245, 151, 10);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+.search-amazon:hover{
+    border: 1.5px solid orange;
+}
+/* box 4 */
+.account-sign{
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+.span{
+    font-size: 0.7rem
+}
+.sign-in:hover{
+    border: 1.5px solid white;
+}
+.return:hover{
+    border: 1.5px solid white;
+}
+/* box 6 */
+.cart i{
+    font-size: 35px ;
+}
+.cart{
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+.cart:hover{
+    border: 1.5px solid white;
+}
+/* panel */
+.panel{
+    height: 40px;
+    background-color: #222f3d ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 10px;
+    font-size: 0.8rem;
+    border: 2px solid transparent;
+}
+.panel-ops p:hover{
+    border: 2px solid white;
+}
+.panel-ops{
+    width: 80%;
+}
+.panel-all{ 
+    border: 1.5px solid transparent;
+}
+.panel-all:hover{
+    border: 2px solid white;
+}
+/* hero*/
+.hero-section{
+    background-image: url("hero.jpg");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.msg-hero{
+    background-color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 85%;
+    margin-bottom: 25px;
+}
+a{
+    color: #007185;
+}
+/* shop section */
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #0b07f5;
+    flex-wrap: wrap;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    /* border: 2px solid black; */
+    background-color: #ffffff;
+    padding: 20px 0px 25px 0px;
+    margin-top: 15px;
+}
+.box-image{
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+    /* background-repeat: none; */
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color: #007185 ;
+}
+/* footer */
+footer{
+    margin-top: 1rem;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color: #232f3e;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    color: white;
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+ul{
+    margin-top: 1.5rem;
+}
+p{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.foot-panel3{
+    height: 68px;
+    background-color: #151c25;
+    border-top: 1.5px solid rgba(255, 255, 255, 0.475);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .logo-last{
+    height: 50px;
+    width: 110px;
+    background-image: url("logo.webp") ;
+    background-size: cover;
+}
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 55px;
+    text-align: center;
+    font-size: 0.7rem;
+
+}
+.pages a{
+    color: white;
+}
+.pages{
+    padding-top: 0.85rem;
+}
+ 
