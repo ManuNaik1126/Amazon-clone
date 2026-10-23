@@ -35,13 +35,8 @@ amazon-clone/
 
 ## 🚀 How to Run Locally
 
-1. Clone this repository:
-
-   ```bash
-   git clone YOUR_REPOSITORY_URL
-   ```
-
-2. Open the project folder.
+1. Download or clone this repository.
+2. Open the project folder in VS Code.
 3. Open `index.html` in your browser.
 
 You can also use the **Live Server** extension in Visual Studio Code.
