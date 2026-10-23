@@ -4,7 +4,7 @@ A front-end clone of Amazon's website built using **HTML and CSS**. This project
 
 ## 🌐 Live Demo
 
-🔗 **Live Website:** [Add your GitHub Pages link here]
+🔗 **Live Website:** [Amazon-clone](https://manunaik1126.github.io/Amazon-clone/)
 
 ## ✨ Features
 
